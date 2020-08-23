@@ -13,5 +13,10 @@ def hello():
     return {"message": "Auwat api welcome"}
 
 
+@app.route('/who')
+def anuwat():
+    return "My name is anuwat : Anu Wat called me anuwat not anu"
+
+
 if __name__ == "__main__":
     app.run()
